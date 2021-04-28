@@ -1,0 +1,19 @@
+#timer-container {
+  width: 100vw;
+  height: 75vw;
+  max-width: 600px;
+  max-height: 450px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  #timer-title {
+    height: calc(10% - 0.5rem);
+    margin: 0.5rem auto 0 auto;
+  }
+
+  #audio {
+    display: none;
+  }
+}

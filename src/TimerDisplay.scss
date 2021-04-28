@@ -1,0 +1,20 @@
+#timer {
+  width: calc(100% - 1rem);
+  margin: 0 0.5rem;
+  height: 30%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  #timer-label {
+    padding: 0;
+    margin: 1rem 0 0 0;
+    font-size: 2rem;
+  }
+
+  #time-left {
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+  }
+}
